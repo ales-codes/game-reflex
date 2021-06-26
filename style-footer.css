@@ -1,0 +1,75 @@
+#bubble-footer {
+    background-color: transparent;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transition: bottom 0.4s;
+}
+
+@media (max-width: 500px) {
+    #bubble-footer {
+        display: none;
+    }
+}
+
+.b1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 99%;
+    background-image: radial-gradient(#fff066, #d6c100);
+    position: absolute;
+    left: 160px;
+    bottom: -140px;    
+}
+
+.b2 {
+    width: 450px;
+    height: 450px;
+    border-radius: 99%;
+    background-image: radial-gradient(#ffde4d, #817400);
+    position: absolute;
+    left: -120px;    
+}
+
+.b3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 99%;
+    background-image: radial-gradient(#fff384, #b8a500);
+    position: absolute;
+    left: 90px;
+    bottom: -100px;
+}
+
+.b4 {
+    width: 340px;
+    height: 340px;
+    border-radius: 99%;
+    background-image: radial-gradient(#fff066, #d6c100);
+    position: absolute;
+    right: 100px;
+    bottom: -100px;
+}
+
+.b5 {
+    width: 500px;
+    height: 500px;
+    border-radius: 99%;
+    background-image: radial-gradient(#ffed9b, #ffe924);
+    position: absolute;
+    right: -150px;
+    bottom: -270px;
+}
+
+.b6 {
+    width: 350px;
+    height: 350px;
+    border-radius: 99%;
+    background-image: radial-gradient(#fff384, #b8a500);
+    position: absolute;
+    right: 200px;
+    bottom: -200px;
+}
+
+

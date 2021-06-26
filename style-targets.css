@@ -1,0 +1,32 @@
+.target-style {
+    width: 50px;
+    height: 50px;    
+    border-radius: 99%;
+    background-image: radial-gradient(var(--color), #9e8f04);    
+    transition: .1s;
+    position: absolute;    
+    border: 1px solid #fff9c5;    
+    transform-origin: center;
+    
+    animation-name: animate-borders;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+}
+
+@keyframes animate-borders {
+    0% {border-width: 1px;}
+    50% {border-width: 10px; transform: translate(-5px, -5px);}
+    100% {border-width: 1px;}
+}
+
+.shot {    
+    opacity: 0;
+    transform-origin: center;
+    transform: scale(3);    
+    pointer-events: none;
+}
+
+
+
+
+

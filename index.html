@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>Check your reflexes</title>
+    <!--CSS -->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style-result-list.css">   
+    <link rel="stylesheet" href="style-targets.css">
+    <link rel="stylesheet" href="style-game-box-top.css">
+    <link rel="stylesheet" href="style-footer.css">    
+    <link rel="stylesheet" href="style-main-box.css">   
+</head>
+<body>
+
+<div class="results-fulscreen">
+    <h1>10 best results</h1>
+    <p>(click anywhere to quit result list)</p>
+</div>
+
+<div id="main-box">
+    <div id="title">Be fast enough and click on all ten targets</div>
+   
+    <!-- Shows results after finishing the round-->
+    <div id="final-results" class="results-design"></div>
+    <div id="final-points" class="results-design"></div>
+
+    <!--Difficulty form-->
+    <div>
+        <label id="label-difficulty" for="difficulty">Difficulty: </label>
+        <select id="difficulty" name="difficulty">
+            <option value="1">Easy</option>
+            <option value="0.8">Moderate</option>
+            <option value="0.6">Hard</option>
+        </select>   
+    </div>
+    <!-- New game button -->
+    <button class="new-game-button">new game</button>
+    <button class="show-results-button">Show previous results</button>
+</div>
+
+
+
+<!-- Game panel on top - visible only during the game -->
+<div id="panel">
+    <div id="upper-bar">
+       
+        <!-- Shows images of hit targets -->
+        <div id="ball-counter">
+
+            <div class="t-icon"></div>
+            <div class="t-icon"></div>
+            <div class="t-icon"></div>
+            <div class="t-icon"></div>
+            <div class="t-icon"></div>
+            <div class="t-icon"></div>
+            <div class="t-icon"></div>
+            <div class="t-icon"></div>
+            <div class="t-icon"></div>
+            <div class="t-icon"></div>
+
+        </div>
+
+        <!-- Counter -->
+        <div id="cont-results"></div>       
+
+    </div>
+</div>
+
+<!-- Game area -->
+<div id="area"></div>
+
+<!-- Foter decoration -->
+<div id="bubble-footer">
+
+    <div class="b1"></div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+
+    <div class="b4"></div>
+    <div class="b5"></div>
+    <div class="b6"></div>
+
+</div>
+
+<!-- JavaScript -->
+<script src="result-list.js"></script> 
+<script src="script.js"></script>
+</body>
+</html>
